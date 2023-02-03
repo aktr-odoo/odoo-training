@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	#b{
+		background-color: lightgray;
+		border-radius: 25px;
+		margin: 0px ;
+		border: 3px solid purple;
+		border-radius: 25px;
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+
+	h1{
+		text-align: center;
+		font-family: arial;
+		margin-top: 0px;
+	}
+	#mail{
+		color: blue;
+		text-decoration-line: underline;
+		font-size: 20px;
+	}
+	.row{
+		display: flex;
+		justify-content: space-between;
+		margin-left: 20px;
+	}
+	.des{
+		display: flex;
+		justify-content: center;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	img{
+		width: 150px;
+		margin: 20px;
+	}
+
+
+	.des,.f{
+		margin-top: 30px;
+		border: 2px solid black;
+		border-radius: 25px;
+	}
+
+	#pa{
+		font-family: arial;
+	}
+
+	.f{
+		font-size: 15px;
+		padding: 30px;
+/*		background-image: linear-gradient(to bottom right, aqua, white);*/
+		margin: 20px;
+		border-radius: 25px;
+		background-color: purple;
+		color: white;
+	}
+
+	#des1{
+		background-image: linear-gradient(to bottom right,red, white);
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+		width: 33.33%;
+	}
+	#des2{
+		background-image: linear-gradient(to bottom right,blue, white);
+		width: 33.33%;
+	}
+	#des3{
+		background-image: linear-gradient(to bottom right,green, white);
+		width: 33.33%;
+		border-top-right-radius: 25px;
+		border-bottom-right-radius: 25px;
+	}
+	}
+</style>
+</head>
+<body >
+<div id="b">
+	<div>
+		<h1>Akshat Trivedi A</h1>
+	</div>
+	
+
+	<div class="row">
+		<div class="column1" >
+
+			  <p id="mail"> akshatjob3@gmail.com</p>
+			  <p style="color: blue; font-size: 20px;"> +91 63553 24394</p>
+			  <p style="font-size: 20px; color: purple;"> Ahmedabad - 380015 <br> <br>
+			      Gujarat
+			   </p>
+		</div>
+
+		<div>
+			<img style="width: 221px;" src="odoo.jpeg">
+		</div>
+
+		<div class="column2" >
+			<img align="right" src="images.jpeg"> 
+		</div>
+
+	</div>
+
+
+
+	<div class="des"> 
+
+		<div id="des1">
+		<p id="pa">My Education Journey</p>
+
+			<dl>
+				<dt><b>B.E</b></dt>
+				<dd>LJIET</dd>
+
+				<dt><b>H.S.C</b></dt>
+				<dd>A-One School</dd>
+
+				<dt><b>S.S.C</b></dt>
+				<dd>A-One School</dd>
+
+			</dl>
+		</div>
+
+		<div id="des2">
+			<p id="pa">Things I have learned in my B.E (IT)</p>
+
+			<dl>
+				<dt><b>Front-End</b></dt>
+				<dd>HTML, CSS, JS </dd>
+
+				<dt><b>Back-End</b></dt>
+				<dd>Python, Django</dd>
+
+				<dt><b>Database</b></dt>
+				<dd>SQL</dd>
+
+			</dl>
+		</div>
+
+		<div id="des3">
+			<p id="pa">Non-Tech Skills</p>
+
+			<ul>
+				<li>Communication</li>
+				<li>Time Management</li>
+				<li>Work Ethic</li>
+				<li>Adaptability</li>
+
+			</ul>
+		</div>
+
+	</div>
+
+
+	<div class="f">
+		<h2>FORM:</h2>
+		<form>
+			<label>Enter First Name: <input type="text" name="fname"></label> <br><br>
+			<label>Enter Last Name: <input type="text" name="lname"></label>  <br><br>
+
+			<p>I am</p>
+
+			<input type="radio" id="male">
+			<label for="male">male</label><br>
+			<input type="radio" id="female" >
+			<label for="female">female</label><br><br><br>
+
+			<input type="checkbox" id="bike" name="bike" value="Bike">
+			<label for="vehicle1"> I will come to odoo by a bike</label><br>
+			<input type="checkbox" id="car" name="car" value="Car">
+			<label for="vehicle2"> I will come to odoo by a car</label><br>
+			<input type="checkbox" id="bus" name="bus" value="Boat">
+			<label for="vehicle3"> I will come to odoo by a bus</label><br> <br>
+
+			<label for="red">Where do you live?</label>
+
+				<select name="red" id="red">
+				  <option value="gan">Gandhinagar</option>
+				  <option value="ahm">Ahmedabad</option>
+				  <option value="oth">Other </option> 
+				</select> <br><br>
+
+			<button type="submit" style="color: white; background-color: green;"> SUBMIT</button>
+
+		</form>
+	</div>
+</div>
+	
+</body>
+</html>
